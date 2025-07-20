@@ -1,0 +1,87 @@
+CRITICAL - 2025-06-30 06:18:31 --> ParseError: Unmatched '}'
+[Method: POST, Route: api/auth/get_user]
+in APPPATH/Controllers/Api/Auth.php on line 198.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/opt/lampp/htdocs/LBS/vendor/composer/../../app/Controllers/Api/Auth.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Api\\Auth')
+ 3 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\Api\\Auth', true)
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-30 06:18:33 --> ParseError: Unmatched '}'
+[Method: POST, Route: api/auth/get_user]
+in APPPATH/Controllers/Api/Auth.php on line 198.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/opt/lampp/htdocs/LBS/vendor/composer/../../app/Controllers/Api/Auth.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Api\\Auth')
+ 3 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\Api\\Auth', true)
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-30 06:19:17 --> ParseError: Unmatched '}'
+[Method: POST, Route: api/auth/get_user]
+in APPPATH/Controllers/Api/Auth.php on line 198.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/opt/lampp/htdocs/LBS/vendor/composer/../../app/Controllers/Api/Auth.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Api\\Auth')
+ 3 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\Api\\Auth', true)
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-30 06:22:39 --> ParseError: Unmatched '}'
+[Method: POST, Route: api/auth/get_user]
+in APPPATH/Controllers/Api/Auth.php on line 198.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/opt/lampp/htdocs/LBS/vendor/composer/../../app/Controllers/Api/Auth.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Api\\Auth')
+ 3 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\Api\\Auth', true)
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-30 06:59:42 --> ParseError: Unmatched '}'
+[Method: POST, Route: api/auth/new_branch]
+in APPPATH/Controllers/Api/Auth.php on line 219.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/opt/lampp/htdocs/LBS/vendor/composer/../../app/Controllers/Api/Auth.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Api\\Auth')
+ 3 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\Api\\Auth', true)
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-30 07:00:34 --> ParseError: Unmatched '}'
+[Method: POST, Route: api/auth/get_user]
+in APPPATH/Controllers/Api/Auth.php on line 219.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/opt/lampp/htdocs/LBS/vendor/composer/../../app/Controllers/Api/Auth.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Api\\Auth')
+ 3 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\Api\\Auth', true)
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-30 07:00:41 --> ParseError: Unmatched '}'
+[Method: POST, Route: api/auth/get_user]
+in APPPATH/Controllers/Api/Auth.php on line 219.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/opt/lampp/htdocs/LBS/vendor/composer/../../app/Controllers/Api/Auth.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Api\\Auth')
+ 3 SYSTEMPATH/CodeIgniter.php(885): class_exists('\\App\\Controllers\\Api\\Auth', true)
+ 4 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-30 07:12:38 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_branch::branchesh
+[Method: POST, Route: api/auth/allBranches]
+in SYSTEMPATH/Model.php on line 930.
+ 1 APPPATH/Controllers/Api/Auth.php(219): CodeIgniter\Model->__call('branchesh', [])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Api\Auth->allBranches()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Auth))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

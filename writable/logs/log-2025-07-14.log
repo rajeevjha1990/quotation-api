@@ -1,0 +1,18 @@
+CRITICAL - 2025-07-14 16:01:00 --> Error: Class "App\Models\M_quoation_items" not found
+[Method: POST, Route: api/quotation/new_quotation]
+in APPPATH/Controllers/Api/Quotation.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Api\Quotation->new_quotation()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Quotation))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-14 16:01:55 --> Error: Class "App\Models\M_quoation_items" not found
+[Method: POST, Route: api/quotation/new_quotation]
+in APPPATH/Controllers/Api/Quotation.php on line 27.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Api\Quotation->new_quotation()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Quotation))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

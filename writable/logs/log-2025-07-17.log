@@ -1,0 +1,12 @@
+CRITICAL - 2025-07-17 16:18:05 --> Mpdf\MpdfException: Temporary files directory "/opt/lampp/htdocs/quotation-API/vendor/mpdf/mpdf/src/Config/../../tmp/mpdf" is not writable
+[Method: GET, Route: api/quotation/quotationPDF/1/1]
+in VENDORPATH/mpdf/mpdf/src/Cache.php on line 21.
+ 1 VENDORPATH/mpdf/mpdf/src/ServiceFactory.php(67): Mpdf\Cache->__construct('/opt/lampp/htdocs/quotation-API/vendor/mpdf/mpdf/src/Config/../../tmp/mpdf', 3600)
+ 2 VENDORPATH/mpdf/mpdf/src/Mpdf.php(1075): Mpdf\ServiceFactory->getServices(Object(Mpdf\Mpdf), Object(Psr\Log\NullLogger), [...], Object(Mpdf\Language\LanguageToFont), Object(Mpdf\Language\ScriptToLanguage), null, null, null, null)
+ 3 APPPATH/Controllers/Api/Quotation.php(87): Mpdf\Mpdf->__construct([...])
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Api\Quotation->quotationPDF('1', '1')
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Quotation))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(57): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

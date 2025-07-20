@@ -1,0 +1,42 @@
+CRITICAL - 2025-07-15 13:41:15 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\M_quotation::client_current_quotation
+[Method: POST, Route: api/client/client_current_quotation]
+in SYSTEMPATH/Model.php on line 930.
+ 1 APPPATH/Controllers/Api/Client.php(82): CodeIgniter\Model->__call('client_current_quotation', [...])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Api\Client->client_current_quotation()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Client))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-15 15:06:53 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: api/client/client_current_quotation]
+in APPPATH/Controllers/Api/Client.php on line 84.
+ 1 APPPATH/Controllers/Api/Client.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', '/opt/lampp/htdocs/quotation-API/app/Controllers/Api/Client.php', 84)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Api\Client->client_current_quotation()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Client))
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-15 16:26:37 --> ParseError: syntax error, unexpected token "return"
+[Method: POST, Route: api/client/client_current_quotation]
+in APPPATH/Models/M_quotation_items.php on line 29.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/opt/lampp/htdocs/quotation-API/vendor/composer/../../app/Models/M_quotation_items.php')
+ 2 APPPATH/Controllers/Api/Client.php(81): Composer\Autoload\ClassLoader->loadClass('App\\Models\\M_quotation_items')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Api\Client->client_current_quotation()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Client))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-15 16:27:56 --> ParseError: syntax error, unexpected token "return"
+[Method: POST, Route: api/client/client_current_quotation]
+in APPPATH/Models/M_quotation_items.php on line 29.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/opt/lampp/htdocs/quotation-API/vendor/composer/../../app/Models/M_quotation_items.php')
+ 2 APPPATH/Controllers/Api/Client.php(81): Composer\Autoload\ClassLoader->loadClass('App\\Models\\M_quotation_items')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Api\Client->client_current_quotation()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Client))
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
